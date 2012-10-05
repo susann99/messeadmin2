@@ -1,0 +1,7 @@
+RewriteEngine on
+
+# Existierende Verzeichnisse oder Dateien direkt ausliefern
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# ansonsten zu index.php weiterleiten
+RewriteRule . index.php
