@@ -1,0 +1,300 @@
+2012/10/05 19:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2012/10/05 19:10:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2012/10/05 19:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2012/10/05 19:18:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/default/index
+---
+2012/10/05 19:19:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/crud/CrudCode.php(44): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): CrudCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/crud
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/controller
+---
+2012/10/05 19:19:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/controller
+---
+2012/10/05 19:19:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/module
+---
+2012/10/05 19:23:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/module
+---
+2012/10/05 19:23:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/module
+---
+2012/10/05 19:44:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/module
+---
+2012/10/05 21:35:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testyii'' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(57): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(154): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/messeadmin/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=gii/model
+HTTP_REFERER=http://www.messeadmin.intern/index.php?r=gii/default/index
+---
+2012/10/05 21:48:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.tbl_user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:50:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.tbl_user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:50:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.tbl_user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:50:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.tbl_user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:56:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.tbl_user' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_user`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:56:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testyii.test' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `test`.
+in /var/www/messeadmin/index.php (13)
+2012/10/05 21:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2012/10/05 22:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('TblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=TblUser
+---
+2012/10/05 22:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('tblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=tblUser
+---
+2012/10/05 22:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2012/10/05 22:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tbluser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('tbluser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=tbluser
+---
+2012/10/05 22:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('TblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=TblUser
+---
+2012/10/05 22:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tbluser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('tbluser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=tbluser
+---
+2012/10/05 22:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2012/10/05 22:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('tblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=tblUser
+---
+2012/10/05 22:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('TblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=TblUser
+---
+2012/10/05 22:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TblUser".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('TblUser')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/messeadmin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=TblUser
+---
